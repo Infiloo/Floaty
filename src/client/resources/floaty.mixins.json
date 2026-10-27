@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.infiloo.floaty.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"HumanoidModelMixin",
+		"LivingEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

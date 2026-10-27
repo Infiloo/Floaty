@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "floaty",
+	"version": "${version}",
+	"name": "Floaty",
+	"description": "Client-side floating animation that follows AFK Cinematics: rise one block, spread your arms, and gently bob in the air.",
+	"authors": [
+		"Infiloo"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/infiloo"
+	},
+	"license": "MIT",
+	"icon": "assets/floaty/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.infiloo.floaty.FloatyClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "floaty.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"afkcinematics": "*"
+	}
+}
